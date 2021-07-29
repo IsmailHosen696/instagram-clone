@@ -1,0 +1,103 @@
+.settings_container {
+  max-width: 500px;
+  display: flex;
+  margin: 2em auto;
+}
+.s {
+  display: flex;
+}
+.settings_box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.signup_dv {
+  display: flex;
+  width: 20em;
+  margin: 1em auto;
+}
+.fileS {
+  margin-left: 1rem;
+  background-color: rgb(214, 214, 214);
+  width: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.settings_heading {
+  font-size: 1.4em;
+  text-align: center;
+}
+.settings_form {
+  display: flex;
+  flex-direction: column;
+}
+.settings_input_div {
+  display: flex;
+  margin: 1em 0;
+  width: 90%;
+  flex-direction: column;
+}
+.settings_input_div > label {
+  margin-bottom: 1em;
+}
+.settings_input_div > input {
+  width: 90%;
+  height: 2.1em;
+  font-family: "Comfortaa", cursive;
+  outline: none;
+  border: 1px solid lightgray;
+  padding: 0 1em;
+  border-radius: 5px;
+  font-size: 1em;
+}
+.settings_btn_up {
+  width: 10em;
+  height: 2.6em;
+  outline: none;
+  border: 1px solid #fff;
+  color: #fff;
+  background: #429af6;
+  font-family: "Comfortaa", cursive;
+  border-radius: 3px;
+  text-transform: capitalize;
+  cursor: pointer;
+  margin-bottom: 1em;
+}
+.back_pr {
+  text-align: center;
+  text-decoration: none;
+  color: #429af6;
+  text-transform: capitalize;
+}
+.back_pr:hover {
+  text-decoration: underline;
+}
+.logout_btn {
+  width: 10em;
+  height: 2.5em;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #fff;
+  color: #fff;
+  background: #ff1f62;
+  font-family: "Comfortaa", cursive;
+  border-radius: 3px;
+  text-transform: capitalize;
+  margin-bottom: 1em;
+}
+@media screen and (max-width: 600px) {
+  .settings_box {
+    margin-left: 1em;
+  }
+  .settings_heading {
+    font-size: 1.1em;
+  }
+}
+@media screen and (max-width: 370px) {
+  .signup_dv {
+    width: 90%;
+  }
+}

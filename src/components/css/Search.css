@@ -1,0 +1,86 @@
+.search_small_box {
+  max-width: 800px;
+  position: relative;
+  margin: 0 auto;
+  top: 4em;
+}
+.search_contents {
+  display: flex;
+  width: 100%;
+  z-index: -10;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.search_input_small {
+  width: 20em;
+  margin: 1em auto;
+  height: 1.5em;
+  padding: 0.5em 1em;
+  outline: none;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.explore_posts {
+  width: 100%;
+  position: absolute;
+  top: 10em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.explore_posts_img {
+  margin: 0.5em;
+  width: 10em;
+  height: 10em;
+  object-fit: cover;
+}
+.inpt {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.openSearch {
+  width: 18em;
+  height: 30em;
+  overflow-y: scroll;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  z-index: 100000;
+  box-shadow: 0px 0px 4px 0px rgb(0 0 0 / 50%);
+  background-color: rgb(255, 255, 255);
+}
+.search_res_user_img {
+  width: 2em;
+  height: 2em;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.red_holder {
+  margin-top: 2em;
+}
+.user_map {
+  display: flex;
+  margin: 1em;
+  align-items: center;
+}
+.user_map > a {
+  margin-left: 1em;
+  text-decoration: none;
+  color: black;
+}
+.user_map > a:hover {
+  text-decoration: underline;
+}
+.times {
+  position: absolute;
+  top: 4.5em;
+  cursor: pointer;
+  animation: spin 0.1s ease-in-out;
+}
+@keyframes spin {
+  to {
+    transform: rotate(90deg);
+  }
+}

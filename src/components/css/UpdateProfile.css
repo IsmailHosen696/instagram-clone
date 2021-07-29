@@ -1,0 +1,74 @@
+.profile_container {
+  max-width: 500px;
+  display: flex;
+  margin: 3em auto;
+}
+.profileBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.update_heading {
+  font-size: 1.5em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+.update_form {
+  display: flex;
+  flex-direction: column;
+}
+.input_divs_update {
+  display: flex;
+  flex-direction: column;
+  margin: 1em 0;
+}
+.input_divs_update > label {
+  margin-bottom: 1em;
+}
+.input_divs_update > input {
+  width: 90%;
+  height: 2.1em;
+  font-family: "Comfortaa", cursive;
+  outline: none;
+  border: 1px solid lightgray;
+  padding: 0 1em;
+  border-radius: 5px;
+  font-size: 1em;
+}
+.bio_update_btn {
+  width: 8em;
+  height: 2.5em;
+  outline: none;
+  border: 1px solid #fff;
+  color: #fff;
+  background: #429af6;
+  font-family: "Comfortaa", cursive;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-bottom: 1em;
+}
+.to_profile {
+  text-align: center;
+  text-decoration: none;
+  color: #429af6;
+}
+.to_profile:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 570px) {
+  .profileBox {
+    width: 95%;
+    margin-left: 1.5em;
+  }
+}
+@media screen and (max-width: 490px) {
+  .profileBox {
+    width: 95%;
+    margin-left: 1em;
+  }
+}
+@media screen and (max-width: 400px) {
+  .input_divs_update > input {
+    width: 80%;
+  }
+}

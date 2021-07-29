@@ -1,0 +1,91 @@
+.suggested_user {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5em;
+}
+.suggest_user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+.suggetion_profile {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.my_p_profile {
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.my_p {
+  display: flex;
+  flex-direction: column;
+}
+.logedIn_id {
+  display: flex;
+  align-items: center;
+  margin-top: 2em;
+  margin-left: 1em;
+}
+.switch {
+  text-decoration: none;
+  color: rgb(66, 154, 246);
+  margin-left: 1em;
+}
+.my_p_link {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  margin-left: 1em;
+}
+.my_p_link:hover {
+  text-decoration: underline;
+}
+.skel {
+  display: flex;
+  align-items: center;
+}
+.user_p_link {
+  text-decoration: none;
+  color: black;
+  margin-left: 1em;
+}
+.user_p_link:hover {
+  text-decoration: underline;
+}
+.follow_btn {
+  color: rgb(66, 154, 246);
+  border: none;
+  outline: none;
+  background: none;
+  margin-left: 1em;
+  cursor: pointer;
+}
+.div {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 890px) {
+  .my_p_profile {
+    width: 3em;
+    height: 3em;
+  }
+  .my_p_link {
+    margin-left: 0.5em;
+    font-size: 0.9em;
+  }
+  .switch {
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width: 800px) {
+  .my_p {
+    display: none;
+  }
+  .suggested_user {
+    display: none;
+  }
+}

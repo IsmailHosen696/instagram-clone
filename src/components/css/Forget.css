@@ -1,0 +1,83 @@
+.forget_container {
+  max-width: 600px;
+  display: flex;
+  margin: 0 auto;
+}
+.forget_box {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  margin-top: 2em;
+  width: 100%;
+  border-radius: 5px;
+}
+.forget_header {
+  text-align: center;
+  margin: 1em 0;
+}
+.forget_input_boxes {
+  background: #fbfbfb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.forget_error {
+  text-align: center;
+  color: red;
+  text-transform: capitalize;
+}
+.forget_success {
+  text-align: center;
+  color: green;
+  text-transform: capitalize;
+}
+.forget_form {
+  display: flex;
+  flex-direction: column;
+}
+.forget_input_div {
+  display: flex;
+  margin: 1em 0;
+  flex-direction: column;
+}
+.forget_input {
+  width: 100%;
+  font-family: "Comfortaa", cursive;
+  height: 2em;
+  margin-top: 0.5em;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  outline: none;
+  padding: 0 1em;
+  font-size: 1.1em;
+  font-weight: 300;
+  color: rgb(65, 65, 65);
+}
+.forget_btn {
+  margin: 1em auto;
+  box-shadow: 0px 0px 15px -9px rgba(0, 0, 0, 0.82);
+  width: 13em;
+  cursor: pointer;
+  height: 2em;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  background: #429af6;
+  border: none;
+  font-size: 1.1em;
+}
+.forget_btn:disabled {
+  color: rgb(175, 175, 175);
+  background: rgb(255, 255, 255);
+}
+.forget_to_signup {
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+}
+.auth_ls {
+  margin-bottom: 2em;
+}
+.forget_to_signup:hover {
+  text-decoration: underline;
+}

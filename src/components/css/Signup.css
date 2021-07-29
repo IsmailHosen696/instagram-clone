@@ -1,0 +1,120 @@
+.signup_container {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+}
+.signup_box {
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background: #fbfbfb;
+  margin: 1em auto;
+}
+.signup_error {
+  color: red;
+  text-transform: capitalize;
+  text-align: center;
+}
+.signup_header {
+  text-align: center;
+  margin: 1em 0;
+}
+.signup_form_div {
+  margin: 1em auto;
+}
+.sigup_form {
+  display: flex;
+  flex-direction: column;
+}
+.signup_div {
+  display: flex;
+  width: 20em;
+  margin: 1em auto;
+  flex-direction: column;
+}
+.signup_dv {
+  display: flex;
+  width: 20em;
+  margin: 1em auto;
+}
+.s {
+  display: flex;
+}
+.signup_input {
+  width: 100%;
+  height: 2em;
+  margin-top: 0.5em;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  font-family: "Comfortaa", cursive;
+  outline: none;
+  padding: 0 1em;
+  font-size: 1.1em;
+  font-weight: 300;
+  color: rgb(65, 65, 65);
+}
+.signup_btn {
+  margin: 1em auto;
+  box-shadow: 0px 0px 15px -9px rgba(0, 0, 0, 0.82);
+  width: 13em;
+  cursor: pointer;
+  height: 2em;
+  color: rgb(255, 255, 255);
+  background: #429af6;
+  border-radius: 5px;
+  border: none;
+  font-family: "Comfortaa", cursive;
+
+  font-size: 1.1em;
+}
+.have_acc {
+  text-align: center;
+}
+.signin_to_link {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  text-decoration: none;
+}
+.all_links {
+  margin: 1em 0;
+}
+.signin_to_link:hover {
+  text-decoration: underline;
+}
+.fileS {
+  margin-left: 1rem;
+  background-color: rgb(214, 214, 214);
+  width: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+@media screen and (max-width: 570px) {
+  .signup_div {
+    width: 90%;
+    margin: 1em 0.5em;
+  }
+  .signup_input {
+    padding: 0 0.5em;
+  }
+}
+@media screen and (max-width: 370px) {
+  .have_acc {
+    text-align: left;
+    margin-left: 0.5em;
+    font-size: 0.9em;
+  }
+  .signup_dv {
+    width: 90%;
+  }
+  .signup_form_div,
+  .signup_box {
+    margin: 1em 0;
+  }
+  .signup_btn {
+    width: 50%;
+    float: left;
+  }
+}
