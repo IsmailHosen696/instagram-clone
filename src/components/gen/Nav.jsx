@@ -28,7 +28,7 @@ export default function Nav() {
             setUser(snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() })))
         })
         setFilteredUser(user.filter(user => user.username.includes(searchText)));
-    }, [ url, searchText ])
+    }, [ url, searchText, user ])
     function logout() {
         signout();
         history.push('/signin');

@@ -12,6 +12,7 @@
   font-size: 1.5em;
   margin-bottom: 2em;
   text-align: center;
+  font-weight: 500;
 }
 .update_form {
   display: flex;
@@ -28,7 +29,7 @@
 .input_divs_update > input {
   width: 90%;
   height: 2.1em;
-  font-family: "Comfortaa", cursive;
+  font-family: "Poppins", sans-serif;
   outline: none;
   border: 1px solid lightgray;
   padding: 0 1em;
@@ -42,7 +43,7 @@
   border: 1px solid #fff;
   color: #fff;
   background: #429af6;
-  font-family: "Comfortaa", cursive;
+  font-family: "Poppins", sans-serif;
   cursor: pointer;
   border-radius: 3px;
   margin-bottom: 1em;

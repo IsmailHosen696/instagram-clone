@@ -14,6 +14,7 @@
 .signin_header {
   text-align: center;
   margin: 1em 0;
+  font-weight: 400;
 }
 .signin_error {
   text-align: center;
@@ -43,7 +44,7 @@
   width: 100%;
   height: 2em;
   margin-top: 0.5em;
-  font-family: "Comfortaa", cursive;
+  font-family: "Poppins", cursive;
   border-radius: 5px;
   border: 1px solid lightgray;
   outline: none;
@@ -62,7 +63,7 @@
   background: #429af6;
   border-radius: 5px;
   border: none;
-  font-family: "Comfortaa", cursive;
+  font-family: "Poppins", cursive;
   font-size: 1.1em;
 }
 .signin_btn:disabled {
@@ -77,8 +78,8 @@
   width: 100%;
 }
 .signin_to_signup {
+  font-weight: 500;
   color: #000;
-  font-weight: 600;
   text-decoration: none;
 }
 .signin_to_signup:hover {
@@ -86,7 +87,7 @@
 }
 .signin_to_forget {
   color: #000;
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: none;
   text-align: center;
 }

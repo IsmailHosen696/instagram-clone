@@ -46,7 +46,7 @@
 .settings_input_div > input {
   width: 90%;
   height: 2.1em;
-  font-family: "Comfortaa", cursive;
+  font-family: "Poppins", sans-serif;
   outline: none;
   border: 1px solid lightgray;
   padding: 0 1em;
@@ -60,7 +60,7 @@
   border: 1px solid #fff;
   color: #fff;
   background: #429af6;
-  font-family: "Comfortaa", cursive;
+  font-family: "Poppins", sans-serif;
   border-radius: 3px;
   text-transform: capitalize;
   cursor: pointer;
@@ -83,7 +83,7 @@
   border: 1px solid #fff;
   color: #fff;
   background: #ff1f62;
-  font-family: "Comfortaa", cursive;
+  font-family: "Poppins", sans-serif;
   border-radius: 3px;
   text-transform: capitalize;
   margin-bottom: 1em;

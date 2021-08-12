@@ -18,6 +18,7 @@
 .signup_header {
   text-align: center;
   margin: 1em 0;
+  font-weight: 400;
 }
 .signup_form_div {
   margin: 1em auto;
@@ -46,7 +47,7 @@
   margin-top: 0.5em;
   border-radius: 5px;
   border: 1px solid lightgray;
-  font-family: "Comfortaa", cursive;
+  font-family: "Poppins", cursive;
   outline: none;
   padding: 0 1em;
   font-size: 1.1em;
@@ -63,8 +64,6 @@
   background: #429af6;
   border-radius: 5px;
   border: none;
-  font-family: "Comfortaa", cursive;
-
   font-size: 1.1em;
 }
 .have_acc {

@@ -23,7 +23,7 @@ export default function Search() {
             setUser(snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() })))
         })
         setFiletereduser(user.filter(user => user.username.includes(searchText)));
-    }, [ searchText ])
+    }, [ searchText, user ])
     return (
         <div>
             <Nav />

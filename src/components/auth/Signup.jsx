@@ -68,6 +68,11 @@ export default function Signup() {
         if (profilePhoto === null) {
             return setError('profile photo is requird after sign in cant change the profile')
         }
+        if(firestore.collection('users').where('username','==',username).onSnapshot(snapshot=>  {
+            snapshot.docs.map(doc=> (doc.data()))
+        })){
+            return setError('username already taken. use a different one !')
+        }
         try {
             setError('');
             signup(email, passwordRef.current.value).then(async (user) => {
